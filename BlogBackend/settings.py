@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',
     'authentication.apps.AuthenticationConfig',
+    'uploadImage.apps.UploadimageConfig',
 ]
 
 MIDDLEWARE = [
